@@ -37,3 +37,13 @@ function placeOrder(customerName, itemsOrdered) {
     }
     orders.push(newOrder)
 }
+
+// Task 4: Create a Function to Calculate Total for an Order
+
+function calculateOrderTotal(order) {
+    return order.items.reduce(function(total, itemOrdered) {
+        const productInInventory = inventory.find(product => product.name === itemOrdered.name)
+        return total + (productInInventory.price * itemOrdered.quantity)
+    }, 0)
+}
+
