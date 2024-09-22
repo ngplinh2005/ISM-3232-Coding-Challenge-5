@@ -1,1 +1,1 @@
-# ISM-3232-Coding-Challenge-5
+This project is a JavaScript application designed to manage customer orders for a coffee shop, enabling the calculation of totals due, inventory management, and order status tracking. It aims to automate the order process, enhancing efficiency and accuracy in customer service.
